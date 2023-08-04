@@ -14,11 +14,11 @@
   }
 
   .about-wrapper {
+    margin-bottom: 10px;
     @include respond(phone) {
       padding-bottom: 5rem;
     }
     p {
-      max-width: 620px;
       padding-top: 30px;
     }
     &__image {
