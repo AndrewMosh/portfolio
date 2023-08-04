@@ -12308,7 +12308,7 @@ section {
 }
 
 #about .about-wrapper p {
-  max-width: 400px;
+  max-width: 620px;
   padding-top: 30px;
 }
 
@@ -12316,13 +12316,13 @@ section {
   height: 100%;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   transition: all .2s ease-in;
   display: flex;
 }
 
 #about .about-wrapper__image .image {
   border-radius: 50%;
+  align-self: center;
 }
 
 @media (max-width: 75em) {
