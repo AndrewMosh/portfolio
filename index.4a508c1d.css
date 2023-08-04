@@ -12307,8 +12307,14 @@ section {
   }
 }
 
+#about .about-wrapper p {
+  max-width: 400px;
+  padding-top: 30px;
+}
+
 #about .about-wrapper__image {
   height: 100%;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   transition: all .2s ease-in;
@@ -12351,11 +12357,10 @@ section {
 }
 
 #about .about-wrapper__info .info-grid {
-  grid-template-columns: repeat(4, 1fr);
+  flex-wrap: wrap;
   align-items: center;
   gap: 20px;
-  margin-bottom: 20px;
-  display: grid;
+  display: flex;
 }
 
 #about .about-wrapper__info .info-grid img {
