@@ -17,14 +17,17 @@
     @include respond(phone) {
       padding-bottom: 5rem;
     }
-
+    p {
+      max-width: 400px;
+      padding-top: 30px;
+    }
     &__image {
       display: flex;
       height: 100%;
-      align-items: center;
-      justify-content: center;
-
+      flex-direction: column;
       transition: all 0.2s ease-in;
+      justify-content: center;
+      align-items: center;
       .image {
         border-radius: 50%;
       }
@@ -51,10 +54,10 @@
         margin: 20px 0;
       }
       .info-grid {
-        display: grid;
+        display: flex;
         gap: 20px;
-        grid-template-columns: repeat(4, 1fr);
-        margin-bottom: 20px;
+        flex-wrap: wrap;
+        // margin-bottom: 20px;
         align-items: center;
 
         img {
@@ -65,6 +68,7 @@
         text-align: left;
         font-family: "Montserrat", sans-serif;
         font-size: 18px;
+
         @include respond(tab-port) {
           text-align: left;
         }
