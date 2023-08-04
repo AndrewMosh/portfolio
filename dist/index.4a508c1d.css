@@ -12301,10 +12301,6 @@ section {
   }
 }
 
-#about .about-wrapper {
-  margin-bottom: 10px;
-}
-
 @media (max-width: 37.5em) {
   #about .about-wrapper {
     padding-bottom: 5rem;

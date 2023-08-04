@@ -14,7 +14,6 @@
   }
 
   .about-wrapper {
-    margin-bottom: 10px;
     @include respond(phone) {
       padding-bottom: 5rem;
     }
