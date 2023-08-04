@@ -12358,7 +12358,7 @@ section {
 #about .about-wrapper__info .info-grid {
   flex-wrap: wrap;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
   display: flex;
 }
 
