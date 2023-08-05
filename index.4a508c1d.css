@@ -12349,6 +12349,7 @@ section {
 @media (max-width: 48em) {
   #about .about-wrapper__info {
     align-items: center;
+    margin-left: 0;
   }
 }
 
