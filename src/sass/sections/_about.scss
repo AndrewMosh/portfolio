@@ -19,6 +19,7 @@
     }
     p {
       padding-top: 30px;
+      text-align: justify;
     }
     &__image {
       display: flex;
@@ -26,6 +27,8 @@
       flex-direction: column;
       transition: all 0.2s ease-in;
       justify-content: center;
+      max-width: 550px;
+
       // align-items: center;
 
       .image {
@@ -45,6 +48,7 @@
       height: 100%;
       justify-content: center;
       flex-direction: column;
+      margin-left: 30px;
 
       @include respond(tab-port-sm) {
         align-items: center;
