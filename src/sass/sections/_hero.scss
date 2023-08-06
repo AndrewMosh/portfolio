@@ -1,11 +1,16 @@
 #hero {
+  position: relative;
+  width: 100%;
+
+  overflow: hidden;
+
   min-height: 100vh;
   height: 100vh;
   display: flex;
   align-items: center;
   border-bottom: 0px;
-  background: $white-color;
-  font-weight: 400;
+  // background: $white-color;
+
   color: $dark-blue-text;
   padding: 0rem 5.6rem;
   margin-bottom: 0;
@@ -13,7 +18,101 @@
   left: 0;
   bottom: 0;
   right: 0;
-  z-index: -1;
+  z-index: 0;
+
+  // .circle {
+  //   position: absolute;
+  //   width: 400px;
+  //   height: 400px;
+  //   background-color: rgba(210, 220, 251, 0.3);
+  //   border-radius: 50%;
+  //   color: white;
+  //   font-size: 60px;
+  //   filter: blur(20px);
+  //   z-index: -1;
+
+  //   &:first-child {
+  //     top: 0;
+  //     left: 0;
+  //     animation: ball 20s linear infinite;
+  //   }
+  //   &:last-child {
+  //     bottom: 0;
+  //     right: 200;
+  //     animation-delay: 3s;
+  //     animation: ball2 30s linear infinite;
+  //   }
+  //   &:nth-child(2) {
+  //     top: 0;
+  //     right: 0;
+  //     animation: ball3 20s linear infinite;
+  //   }
+  //   &:nth-child(3) {
+  //     bottom: 0;
+  //     left: 0;
+  //     animation: ball4 30s linear infinite;
+  //   }
+  //   @keyframes ball {
+  //     0%,
+  //     100% {
+  //       transform: rotateZ(0deg);
+  //       transform-origin: bottom right;
+  //       background-color: hsla(226, 100%, 93%, 0.337);
+  //     }
+
+  //     50% {
+  //       width: 30%;
+  //       transform: rotateZ(360deg);
+  //       transform-origin: top left;
+  //       background-color: hsla(218, 75%, 91%, 0.213);
+  //     }
+  //   }
+  //   @keyframes ball2 {
+  //     0%,
+  //     100% {
+  //       transform: rotateZ(0deg);
+  //       transform-origin: top left;
+  //       background-color: hsla(217, 79%, 89%, 0.702);
+  //     }
+
+  //     50% {
+  //       width: 30%;
+  //       transform: rotateZ(360deg);
+  //       transform-origin: bottom right;
+  //       background-color: hsla(209, 100%, 96%, 0.532);
+  //     }
+  //   }
+  //   @keyframes ball3 {
+  //     0%,
+  //     100% {
+  //       transform: rotateZ(0deg);
+  //       transform-origin: top right;
+  //       background-color: hsla(217, 100%, 94%, 0.702);
+  //     }
+
+  //     50% {
+  //       width: 30%;
+  //       transform: rotateZ(360deg);
+  //       transform-origin: bottom left;
+  //       background-color: hsla(209, 100%, 96%, 0.532);
+  //     }
+  //   }
+  //   @keyframes ball4 {
+  //     0%,
+  //     100% {
+  //       transform: rotateZ(0deg);
+  //       transform-origin: bottom left;
+  //       background-color: hsla(217, 79%, 89%, 0.702);
+  //     }
+
+  //     50% {
+  //       width: 30%;
+  //       transform: rotateZ(360deg);
+  //       transform-origin: top right;
+  //       background-color: hsla(209, 100%, 96%, 0.532);
+  //     }
+  //   }
+  // }
 
   // Set position sticky so the jumbotron stays fixed while you scroll.
   // position: sticky;
