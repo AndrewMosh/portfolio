@@ -1,24 +1,17 @@
 {
-  "name": "simplefolio",
+  "name": "AndrewMosh portfolio",
   "version": "1.0.1",
   "private": "true",
-  "description": "A clean, beautiful and responsive portfolio template for Developers!",
+  "description": "my portfolio",
   "source": "./src/index.html",
   "scripts": {
     "start": "parcel",
     "predeploy": "parcel build src/index.html --public-url '.'",
     "deploy": "gh-pages -d dist"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cobiwave/simplefolio"
-  },
   "keywords": [],
   "author": "Andrew Mosh",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cobiwave/simplefolio/issues"
-  },
   "homepage": "https://andrewmosh.github.io/portfolio/",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.2",
