@@ -12448,6 +12448,7 @@ section {
   height: 100vh;
   color: #272341;
   z-index: 0;
+  background-color: #edfbfbbb;
   border-bottom: 0;
   align-items: center;
   margin-bottom: 0;
@@ -12642,6 +12643,7 @@ section {
 @media (max-width: 720px) {
   .gradient {
     --size: 250px;
+    z-index: -1;
     right: 25%;
   }
 }
