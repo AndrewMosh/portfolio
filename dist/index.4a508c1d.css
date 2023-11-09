@@ -12541,6 +12541,183 @@ section {
   transition-delay: 1.4s;
 }
 
+#hero .sign {
+  width: 10%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffe6ff;
+  text-shadow: 0 0 .6rem #ffe6ff, 0 0 1.5rem #6d65ff, -.2rem .1rem 1rem #65baff, .2rem .1rem 1rem #65ffd3, 0 -.5rem 2rem #24ff33, 0 .5rem 3rem #2491ff;
+  font-family: Clip;
+  font-size: 2em;
+  animation: 2s forwards shine, 3s infinite flicker;
+  position: absolute;
+  top: 30px;
+  left: 50px;
+}
+
+@keyframes blink {
+  0%, 22%, 36%, 75% {
+    color: #ffe6ff;
+    text-shadow: 0 0 .6rem #ffe6ff, 0 0 1.5rem #65b7ff, -.2rem .1rem 1rem #65adff, .2rem .1rem 1rem #6565ff, 0 -.5rem 2rem #2448ff, 0 .5rem 3rem #24ff69;
+  }
+
+  28%, 33% {
+    color: #ffdada;
+    text-shadow: none;
+  }
+
+  82%, 97% {
+    color: #ffd7d7;
+    text-shadow: none;
+  }
+}
+
+#hero .flicker {
+  animation: 2s forwards shine, 3s 2s infinite blink;
+}
+
+#hero .fast-flicker {
+  animation: 2s forwards shine, 10s 1s infinite blink;
+}
+
+@keyframes shine {
+  0% {
+    color: #186b6b;
+    text-shadow: none;
+  }
+
+  100% {
+    color: #ffe6ff;
+    text-shadow: 0 0 .6rem #e6e9ff, 0 0 1.5rem #6f65ff, -.2rem .1rem 1rem #65bfff, .2rem .1rem 1rem #6596ff, 0 -.5rem 2rem #2448ff, 0 .5rem 3rem #2478ff;
+  }
+}
+
+@keyframes flicker {
+  from {
+    opacity: 1;
+  }
+
+  4% {
+    opacity: .9;
+  }
+
+  6% {
+    opacity: .85;
+  }
+
+  8% {
+    opacity: .95;
+  }
+
+  10% {
+    opacity: .9;
+  }
+
+  11% {
+    opacity: .922;
+  }
+
+  12% {
+    opacity: .9;
+  }
+
+  14% {
+    opacity: .95;
+  }
+
+  16% {
+    opacity: .98;
+  }
+
+  17% {
+    opacity: .9;
+  }
+
+  19% {
+    opacity: .93;
+  }
+
+  20% {
+    opacity: .99;
+  }
+
+  24% {
+    opacity: 1;
+  }
+
+  26% {
+    opacity: .94;
+  }
+
+  28% {
+    opacity: .98;
+  }
+
+  37% {
+    opacity: .93;
+  }
+
+  38% {
+    opacity: .5;
+  }
+
+  39% {
+    opacity: .96;
+  }
+
+  42% {
+    opacity: 1;
+  }
+
+  44% {
+    opacity: .97;
+  }
+
+  46% {
+    opacity: .94;
+  }
+
+  56% {
+    opacity: .9;
+  }
+
+  58% {
+    opacity: .9;
+  }
+
+  60% {
+    opacity: .99;
+  }
+
+  68% {
+    opacity: 1;
+  }
+
+  70% {
+    opacity: .9;
+  }
+
+  72% {
+    opacity: .95;
+  }
+
+  93% {
+    opacity: .93;
+  }
+
+  95% {
+    opacity: .95;
+  }
+
+  97% {
+    opacity: .93;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
 @media (max-width: 37.5em) {
   #hero {
     padding: 0 1.6rem;
