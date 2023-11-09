@@ -102,7 +102,7 @@
     width: 10%;
 
     top: 30px;
-    left: 50px;
+    left: 60px;
     letter-spacing: 2;
     font-family: "Clip";
     text-transform: uppercase;
@@ -112,6 +112,10 @@
       -0.2rem 0.1rem 1rem #65baff, 0.2rem 0.1rem 1rem #65ffd3,
       0 -0.5rem 2rem #24ff33, 0 0.5rem 3rem #2491ff;
     animation: shine 2s forwards, flicker 3s infinite;
+    @media screen and (max-width: 900px) {
+      width: 100%;
+      left: 0;
+    }
   }
 
   @keyframes blink {

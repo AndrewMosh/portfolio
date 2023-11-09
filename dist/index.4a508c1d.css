@@ -12552,7 +12552,14 @@ section {
   animation: 2s forwards shine, 3s infinite flicker;
   position: absolute;
   top: 30px;
-  left: 50px;
+  left: 60px;
+}
+
+@media screen and (max-width: 900px) {
+  #hero .sign {
+    width: 100%;
+    left: 0;
+  }
 }
 
 @keyframes blink {
