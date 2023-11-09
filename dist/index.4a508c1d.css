@@ -12361,6 +12361,7 @@ section {
 
 #about .about-wrapper__info .info-grid {
   flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
   gap: 10px;
   display: flex;
