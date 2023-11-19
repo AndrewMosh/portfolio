@@ -12980,10 +12980,11 @@ section {
 .bg {
   width: 200%;
   height: 200vh;
-  opacity: .9;
+  mix-blend-mode: darken;
+  opacity: .5;
   visibility: visible;
-  background: url("http://assets.iceable.com/img/noise-transparent.png");
-  animation: .2s infinite bg-animation;
+  background: #a1a1a148 url("http://assets.iceable.com/img/noise-transparent.png");
+  animation: .4s infinite bg-animation;
   position: fixed;
   inset: -50%;
 }
