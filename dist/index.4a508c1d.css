@@ -12984,7 +12984,7 @@ section {
   opacity: .5;
   visibility: visible;
   background: #a1a1a148 url("http://assets.iceable.com/img/noise-transparent.png");
-  animation: .4s infinite bg-animation;
+  animation: .2s infinite bg-animation;
   position: fixed;
   inset: -50%;
 }
