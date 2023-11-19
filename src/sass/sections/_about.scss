@@ -59,6 +59,10 @@
         font-size: 20px;
         margin: 20px 0;
       }
+      .icons {
+        width: 30rem;
+        max-width: 100%;
+      }
       .info-grid {
         display: flex;
         gap: 10px;
@@ -72,7 +76,6 @@
         }
       }
       &-text {
-        text-align: left;
         font-family: "Montserrat", sans-serif;
         font-size: 18px;
 
