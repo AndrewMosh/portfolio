@@ -12411,6 +12411,11 @@ section {
   font-weight: bolder;
 }
 
+#about .about-wrapper__info .icons {
+  width: 30rem;
+  max-width: 100%;
+}
+
 #about .about-wrapper__info .info-grid {
   flex-wrap: wrap;
   justify-content: center;
@@ -12424,7 +12429,6 @@ section {
 }
 
 #about .about-wrapper__info-text {
-  text-align: left;
   font-family: Montserrat, sans-serif;
   font-size: 18px;
 }
@@ -12501,6 +12505,7 @@ section {
   height: 100vh;
   color: #272341;
   z-index: 0;
+  background-color: #eff6ffca;
   border-bottom: 0;
   align-items: center;
   margin-bottom: 0;
@@ -12981,10 +12986,10 @@ section {
   width: 200%;
   height: 200vh;
   mix-blend-mode: darken;
-  opacity: .5;
+  opacity: .3;
   visibility: visible;
-  background: #a1a1a148 url("http://assets.iceable.com/img/noise-transparent.png");
-  animation: .2s infinite bg-animation;
+  background: #f5fbffb6 url("http://assets.iceable.com/img/noise-transparent.png");
+  animation: .3s infinite bg-animation;
   position: fixed;
   inset: -50%;
 }
